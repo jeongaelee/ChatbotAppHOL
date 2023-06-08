@@ -23,7 +23,7 @@
   * Azure OpenAPI
 
 ## High Level Architecture
-> <img src="./images/Chatbot Architecture.png" width="520"/>
+> <img src="./images/Chatbot Architecture.png" width="360"/>
 
   * 본 실습에서는 사용자를 인증하고 인증된 사용자를 SaaS 솔루션인 Contoso Chatbot으로 리다이렉트 해주는, 고객용 Contoso Product Landing Page를 생성합니다.
 
@@ -31,7 +31,7 @@
 
   * 본 시나리오를 지원하기 위하여, Azure App Service에 호스팅되는 웹앱은 아래의 서비스들과 연동됩니다.
 
-    1. Azure AD: 고객과 솔루션 어드민을 인증
+    1. Azure AD: 고객 인증
     2. Azure SQL DB: 구독 데이터 저장 및 관리
     3. Azure OpenAI Service: 자연어 ChatGPT 모델로 부터 AI 응답 생성
     4. Azure CosmosDB: Intelligent App에서 사용된 ChatGPT 모델로 부터 생성된 응답 저장
