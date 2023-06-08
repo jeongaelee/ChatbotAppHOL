@@ -13,7 +13,7 @@
 
 * 본 샘플 애플리케이션은 GitHub Azure-Samples 리파지토리의 ["Azure CosmosDB + OpenAI ChatGPT"](https://github.com/Azure-Samples/cosmosdb-chatgpt)을 기반으로 배포 됩니다. 본 채팅 애플리케이션은 개별적인 챗 세션을 왼쪽에서 생성하여 선택할 수 있습니다. 각 세션에서 GPT 모델이 대화를 하는 것처럼 응답할 수 있는 컨텍스트를 제공합니다. 이 대화 기록의 길이는 OpenAiMaxTokens 값을 사용하여 appsetting.js에서 구성할 수 있으며 이 값을 1/2이 최대 대화 문자열 길이로 변환됩니다.
 
-> <img src="./images/ChatbotScreen.png" width="520"/>
+> <img src="./images/ChatbotScreen.png" width="640"/>
 
 * 이 샘플에 사용된 모델의 토큰 수는 최대 제한이 있습니다. 토큰은 서비스의 요청과 응답 모두에 사용됩니다. maxConversationLength를 최대 토큰 값에 근접하는 값으로 재정의하면 요청에 모두 사용된 경우 텍스트가 거의 포함되지 않거나 포함되지 않는 완료가 발생할 수 있습니다.
 
