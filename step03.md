@@ -2,7 +2,7 @@
 
 ## Step 3. Chatbot 앱 보안
 
-* 위의 단계에서 배포된 애플리이션은 공개적으로 접속할 수 있는 URL이 있으며, 이 URL을 통해 누구나 Chatbot에 접속할 수 있는 상태입니다. 이를 방지하기 위하여 애플리케이션에 대한 액세스를 제한하기 위하여 로그인으로 사용자를 검증하고 권한을 부여할 수 있습니다. SaaS 애플리케이션을 만들때 유료 사용자가 가입을 하고 액세스를 할 수 있도록 만드는 것은 일반적인 앱 구현 단계입니다.
+* 위의 단계에서 칟ㅁㄱ배포된 애플리이션은 공개적으로 접속할 수 있는 URL이 있으며, 이 URL을 통해 누구나 Chatbot에 접속할 수 있는 상태입니다. 이를 방지하기 위하여 애플리케이션에 대한 액세스를 제한하기 위하여 로그인으로 사용자를 검증하고 권한을 부여할 수 있습니다. SaaS 애플리케이션을 만들때 유료 사용자가 가입을 하고 액세스를 할 수 있도록 만드는 것은 일반적인 앱 구현 단계입니다.
 
 * 사용자 인증 및 권한 부여를 포함하도록 애플리케이션을 업데이트하려면, 사용자가 엔터프라이즈 애플리케이션의 소유자이거나 글로벌 관리자, 애플리케이션 관리자 혹은 클라우드 관리자 역할 중 하나를 할당 받아야 합니다. 이번 단계에서는 Azure Active Directory를 통하여 사용자를 검증하고 권한을 부여하는 방법을 알아보겠습니다.
 
@@ -48,14 +48,14 @@
 
 9. 챗봇 애플리이션의 접근 권한이 업데이트 되어 Azure AD에 의해서 보호되고 있습니다. 챗봇 애플리케이션에 접속하여 로그인을 시도하면, 아래와 같이 로그인 화면이 나타납니다.
 
-> <img src="./images/step03-9.png" width="720"/>
+> <img src="./images/step03-9.png" width="360"/>
 
 10. 처음 로그인을 할때 아래와 같이 권한을 허용하여야 웹 사이트에 접속할 수 있습니다.
 
-> <img src="./images/step03-10.png" width="720"/>
+> <img src="./images/step03-10.png" width="480"/>
 
 ## 실습 순서
 
-* [Step 1. Azure에서 ChatBot App 리소스 배포](https://github.com/jeongaelee/Intelligent-Apps-HOL-with-CosmosDB-and-ChatGPT/blob/master/step01.md)
-* [Step 2. OpenAPI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/Intelligent-Apps-HOL-with-CosmosDB-and-ChatGPT/blob/master/step02.md)
-* [Step 3. Chatbot 앱 보안](https://github.com/jeongaelee/Intelligent-Apps-HOL-with-CosmosDB-and-ChatGPT/blob/master/step03.md)
+* [Step 1. Azure에서 ChatBot App 리소스 배포](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step01.md)
+* [Step 2. OpenAPI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step02.md)
+* [Step 3. Chatbot 앱 보안](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step03.md)
