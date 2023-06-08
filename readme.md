@@ -2,9 +2,7 @@
 
 ## Hands-on Lab 소개
 
-* 인공지능의 가장 진보적이고 혁신적인 발전 중 하나인 ChatGPT와 GPT4를 통하여 인공지능이 어떻게 우리의 일상생활에 적용되고 있는지 알아보고, Azure App Service와 CosmosDB, Azure OpenAI를 이용하여 ChatGPT를 적용하는 방법을 학습합니다.
-
-* 본 실습에서는 Azure OpenAPI 서비스를 이용하여 지능형 웹 애플리케이션을 생성합니다. 이 실습을 완성하고나면, Azure OpenAI 서비스를 이용하여 AI 챗봇 애플리케이션을 생성하는 방법을 습득할 수 있습니다. OpenAI
+* 본 실습에서는 Azure App Service와 CosmosDB, Azure OpenAI 서비스를 이용하여 지능형 웹 애플리케이션을 생성합니다. 이 실습을 완성하고나면, Azure OpenAI 서비스를 이용하여 AI 챗봇 애플리케이션을 생성하는 방법을 습득할 수 있습니다.
 
 * OpenAI와 ChatGPT
   * OpenAI는 2015년 설립된 인공지능 연구 기업입니다. OpenAI는 인공지능의 발전을 위해 노력하고 있으며, 인공지능의 발전을 통하여 인류의 미래를 개선하고자 합니다. OpenAI는 인공지능의 발전을 위하여 다양한 연구를 진행하고 있으며, 그 중 하나가 ChatGPT입니다.
