@@ -11,7 +11,7 @@
   * ChatGPT는 OpenAI에서 개발한 인공지능 챗봇입니다. ChatGPT는 인공지능이 자연어를 이해하고, 자연어로 대화를 주고받을 수 있도록 학습된 인공지능입니다.
   * 본 실습에서는 선택된 GPT 모델을 이용하여 수준 높은 답변과 복잡한 질문에 대한 답변을 생성하는 방법을 학습합니다.
 
-* 본 실습은 [GitHub Azure-Samples 리파지토리의 "Azure CosmosDB + OpenAI ChatGPT"](https://github.com/Azure-Samples/cosmosdb-chatgpt) 샘플 애플리케이션을 기반으로 생성 되었습니다.
+* 본 실습은 GitHub Azure-Samples 리파지토리의 ["Azure CosmosDB + OpenAI ChatGPT"](https://github.com/Azure-Samples/cosmosdb-chatgpt) 샘플 애플리케이션을 기반으로 생성 되었습니다.
 
 ## 사용 리소스 및 환경
   * Azure App Service
