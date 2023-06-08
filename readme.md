@@ -11,7 +11,11 @@
   * ChatGPT는 OpenAI에서 개발한 인공지능 챗봇입니다. ChatGPT는 인공지능이 자연어를 이해하고, 자연어로 대화를 주고받을 수 있도록 학습된 인공지능입니다.
   * 본 실습에서는 선택된 GPT 모델을 이용하여 수준 높은 답변과 복잡한 질문에 대한 답변을 생성하는 방법을 학습합니다.
 
-* 본 실습은 GitHub Azure-Samples 리파지토리의 ["Azure CosmosDB + OpenAI ChatGPT"](https://github.com/Azure-Samples/cosmosdb-chatgpt) 샘플 애플리케이션을 기반으로 생성 되었습니다.
+## Intelligent Apps Contoso Chatbot 소개
+
+* 본 샘플 애플리케이션은 GitHub Azure-Samples 리파지토리의 ["Azure CosmosDB + OpenAI ChatGPT"](https://github.com/Azure-Samples/cosmosdb-chatgpt)을 기반으로 배포 됩니다. 본 채팅 애플리케이션은 개별적인 챗 세션을 왼쪽에서 생성하여 선택할 수 있습니다. 각 세션에서 GPT 모델이 대화를 하는 것처럼 응답할 수 있는 컨텍스트를 제공합니다. 이 대화 기록의 길이는 OpenAiMaxTokens 값을 사용하여 appsetting.js에서 구성할 수 있으며 이 값을 1/2이 최대 대화 문자열 길이로 변환됩니다.
+
+> <img src="./images/ChatbotScreen.png" width="520"/>
 
 ## 사용 리소스 및 환경
   * Azure App Service
@@ -19,7 +23,7 @@
   * Azure OpenAPI
 
 ## High Level Architecture
-<img src="./images/Chatbot Architecture.png" width="520"/>
+> <img src="./images/Chatbot Architecture.png" width="520"/>
 
   * 본 실습에서는 사용자를 인증하고 인증된 사용자를 SaaS 솔루션인 Contoso Chatbot으로 리다이렉트 해주는, 고객용 Contoso Product Landing Page를 생성합니다.
 
