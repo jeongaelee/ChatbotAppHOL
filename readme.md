@@ -30,7 +30,7 @@
 ## 사용 리소스 및 환경
   * Azure App Service
   * Azure CosmosDB
-  * Azure OpenAPI
+  * Azure OpenAI
 
 ## High Level Architecture
 > <img src="./images/Chatbot Architecture.png" width="360"/>
@@ -47,10 +47,10 @@
 
 * 지능형 웹 애플리케이션 배포를 위해서는 다음의 사전 요구 사항이 필요합니다.
 
-1. Azure 구독 및 Azure OpenAPI Access
+1. Azure 구독 및 Azure OpenAI Access
 
-  * Azure OpenAPI Access 요청은 [본 링크](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)에서 정보를 채우고 Submit 하면 됩니다.
-  * Azure OpenAPI Access 요청이 승인/거절되면 이메일로 알려줍니다.
+  * Azure OpenAI Access 요청은 [본 링크](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu)에서 정보를 채우고 Submit 하면 됩니다.
+  * Azure OpenAI Access 요청이 승인/거절되면 이메일로 알려줍니다.
 
 2. Azure 구독에서 App Serivce와 CosmosDB를 배포할 수 있는 권한.
 
@@ -59,5 +59,5 @@
 ## 실습 순서
 
 * [Step 1. Azure에서 ChatBot App 리소스 배포](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step01.md)
-* [Step 2. OpenAPI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step02.md)
+* [Step 2. OpenAI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step02.md)
 * [Step 3. Chatbot 앱 보안](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step03.md)
