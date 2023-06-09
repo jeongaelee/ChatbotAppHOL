@@ -40,9 +40,8 @@
   * 본 시나리오를 지원하기 위하여, Azure App Service에 호스팅되는 웹앱은 아래의 서비스들과 연동됩니다.
 
     1. Azure AD: 고객 인증
-    2. Azure SQL DB: 구독 데이터 저장 및 관리
-    3. Azure OpenAI Service: 자연어 ChatGPT 모델로 부터 AI 응답 생성
-    4. Azure CosmosDB: Intelligent App에서 사용된 ChatGPT 모델로 부터 생성된 응답 저장
+    2. Azure OpenAI Service: 자연어 ChatGPT 모델로 부터 AI 응답 생성
+    3. Azure CosmosDB: Intelligent App에서 사용된 ChatGPT 모델로 부터 생성된 응답 저장
 
 ## 사전 요구 사항
 
