@@ -53,7 +53,7 @@
 1. 채팅을 생성하고, 프롬프트를 전송하고 응답을 받아봅니다. OpenAI에 전달된 요청과 응답은 Cosmos DB에 저장됩니다.
 > <img src="./images/step01-10.png" width="640"/>
 
-2. Azure Portal에서 Cosmos DB 리소스를 선택합니다.
+2. Azure Portal에서 Cosmos DB 리소스를 선택합니다. "데이터 탐색기" 메뉴에서 chatcontainer를 찾아서 Item들이 생성되고 대화가 저장되었는지 확인합니다.
 
 > <img src="./images/step01-11.png" width="720"/>
 
