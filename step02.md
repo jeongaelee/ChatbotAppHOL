@@ -51,6 +51,15 @@
   ```
   {"id":"cmpl-7NyLdrOPlk3Sww3PCZYIVLs######","object":"text_completion","created":1685947877,"model":"gpt-35-turbo","choices":[{"text":", in a village in","index":0,"finish_reason":"length","logprobs":null}],"usage":{"completion_tokens":5,"prompt_tokens":4,"total_tokens":9}}
   ```
+### Azure OpenAI 서비스 배포 모델 확인
+
+1. Azure Portal의 Azure OpenAI 리소스를 찾아서, "Model Deployments" 메뉴를 선택합니다. "배포 관리"를 선택하면 Azure AI Studio로 리디렉션 되면서 Azure OpenAI 서비스에 배포된 모델들을 확인할 수 있습니다.
+
+> <img src="./images/step02-7.png" width="640"/>
+
+2. Azure AI Studio의 "Management > Deployments" 메뉴에서 배포된 모델을 확인 할 수 있습니다.
+
+> <img src="./images/step02-8.png" width="640"/>
 
 ## 실습 순서
 
