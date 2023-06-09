@@ -10,7 +10,7 @@
 
 > <img src="./images/step01-1.png" width="640"/>
 
-3. 화면의 아래 항목에서 구독과 리소스 그룹을 선택합니다. Azure OpenAI Access 권한을 받은 구속을 선택합니다. 리소스 그룹은 새로 만들어도 되고, 기존에 있는 것을 선택해도 됩니다. 리소스 그룹을 새로 만들 경우, 리소스 그룹 이름 (예: OpenAPIApp-RG)을 입력하고, 위치를 선택합니다.
+3. 화면의 아래 항목에서 구독과 리소스 그룹을 선택합니다. Azure OpenAI Access 권한을 받은 구속을 선택합니다. 리소스 그룹은 새로 만들어도 되고, 기존에 있는 것을 선택해도 됩니다. 리소스 그룹을 새로 만들 경우, 리소스 그룹 이름 (예: OpenAIApp-RG)을 입력하고, 위치를 선택합니다.
 
 > <img src="./images/step01-2.png" width="640"/>
 
@@ -60,5 +60,5 @@
 ## 실습 순서
 
 * [Step 1. Azure에서 ChatBot App 리소스 배포](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step01.md)
-* [Step 2. OpenAPI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step02.md)
+* [Step 2. OpenAI Key 확인 및 Azure OpenAI 서비스 API 연결 확인](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step02.md)
 * [Step 3. Chatbot 앱 보안](https://github.com/jeongaelee/ChatbotAppHOL/blob/master/step03.md)
